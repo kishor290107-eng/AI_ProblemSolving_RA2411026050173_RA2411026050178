@@ -34,6 +34,16 @@ Find the shortest path using A* algorithm.
 2. Install Flask: pip install flask
 3. Run: python app.py
 ## Sample Output
+## Example Input
+
+Start Node: A  
+Goal Node: F  
+
+## Example Output
+
+BFS Path: A → B → D → F  
+DFS Path: A → C → D → F  
+A* Path: A → B → E → F
 
 ### BFS Output
 Path from A to F:
