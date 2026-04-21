@@ -1,5 +1,25 @@
 # AI Problem Solving Assignment
 
+## Problem Description
+
+### Problem 8: Smart Navigation System
+Find a path between two nodes using BFS and DFS algorithms.
+
+### Problem 11: GPS Route Finder
+Find the shortest path using A* algorithm.
+
+## Problems Selected
+1. Smart Navigation System (BFS, DFS)
+2. GPS Route Finder (A*)
+
+## Algorithms Used
+- BFS
+- DFS
+- A*
+
+## How to Run
+...
+
 ## Problems Selected
 1. Smart Navigation System (BFS, DFS)
 2. GPS Route Finder (A*)
