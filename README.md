@@ -1,61 +1,75 @@
 # AI Problem Solving Assignment
 
-## Problem Description
+## Problem 8: Smart Navigation System
 
-### Problem 8: Smart Navigation System
-Find a path between two nodes using BFS and DFS algorithms.
+### Description
+This problem finds a path between two nodes using graph traversal algorithms such as BFS and DFS.
 
-### Problem 11: GPS Route Finder
-Find the shortest path using A* algorithm.
+### Algorithms Used
+- BFS (Breadth First Search)
+- DFS (Depth First Search)
 
-## Problems Selected
-1. Smart Navigation System (BFS, DFS)
-2. GPS Route Finder (A*)
+### How to Run
 
-## Algorithms Used
-- BFS
-- DFS
-- A*
+1. Open Problem8 folder
+2. Run bfs.py and dfs.py
 
-## How to Run
-...
+Example:
+python bfs.py  
+python dfs.py  
 
-## Problems Selected
-1. Smart Navigation System (BFS, DFS)
-2. GPS Route Finder (A*)
+### Sample Output
 
-## Algorithms Used
-- BFS
-- DFS
-- A*
+BFS:
+BFS Path: ['A', 'B', 'D']
 
-## How to Run
-1. Install Python
-2. Install Flask: pip install flask
-3. Run: python app.py
-## Sample Output
-## Example Input
+DFS:
+DFS Path: ['A', 'C', 'D']
 
-Start Node: A  
-Goal Node: F  
+### Advantages
+- BFS finds shortest path in unweighted graphs
+- DFS is simple and memory efficient
 
-## Example Output
+### Disadvantages
+- DFS does not guarantee shortest path
+- BFS uses more memory
 
-BFS Path: A → B → D → F  
-DFS Path: A → C → D → F  
-A* Path: A → B → E → F
+---
 
-### BFS Output
-Path from A to F:
-A → B → D → F
+## Problem 11: GPS Route Finder
 
-### DFS Output
-Path from A to F:
-A → C → D → F
+### Description
+This problem finds the shortest path using A* algorithm with heuristic values.
 
-### A* Output
-Shortest path:
-A → B → E → F
+### Algorithm Used
+- A* (A-Star Search Algorithm)
+
+### How to Run
+
+1. Open Problem11 folder
+2. Run astar.py
+
+Example:
+python astar.py  
+
+### Sample Output
+
+A* Path: ['A', 'B', 'D']
+Total Cost: 3
+
+### Advantages
+- Finds optimal path efficiently
+- Faster than BFS/DFS in weighted graphs
+
+### Disadvantages
+- Requires heuristic function
+- More complex than BFS/DFS
+
+---
+
+## Conclusion
+
+This project demonstrates how search algorithms like BFS, DFS, and A* are used in real-world applications such as navigation systems and GPS route finding.
 
 
 ## Authors
